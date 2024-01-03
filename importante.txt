@@ -1,0 +1,18 @@
+ <div class="informacao">
+              <div class="label1">
+                <label for="informacao">Informações pertinentes sobre a história escolar do aluno</label>
+              </div>
+              <input type="text" id="informacao" name="informacao">
+            </div>
+
+
+a parte do css 
+
+
+#informacao {
+  margin-top: 20px; /*Posicionando para baixo o input informacao*/
+  display:block; /*Foi usado para que o label ficasse em cima do input, dessa forma ele perdeu a propriedade que estava no form*/
+  width: 710px; /*Largura do input informacao*/
+  height: 60px; /*Altura do input informacao*/
+  margin-left: -3px; /*Posicionando a esquerda o input informacao*/
+}
